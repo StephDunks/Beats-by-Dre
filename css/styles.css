@@ -56,7 +56,96 @@ header .logo {
 	height:40px;
 	width: 40px;
 	background-size: 40px;
+	float: left;
 
+}
+
+header ul {
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	padding: 0;
+	width: calc(100% - 60px);
+
+}
+
+
+
+header  li {
+	display: inline-block;
+	margin-left: 40px;
+
+
+}
+
+header a,
+header a:visited {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+
+}
+
+header a:hover,
+header a:focus,
+header a:active {
+	opacity: 0.8;
+	text-decoration: none;
+	color: white;
+}
+
+
+.desktop-nav .logo {
+	float: left;
+}
+
+.mobile-nav {
+	display: none;
+	text-align: center;
+}
+
+.mobile-nav .logo {
+	display: inline-block;
+}
+
+.mobile-nav .hamburger-container,
+.mobile-nav .search-container {
+	width: 40px;
+	display: inline-block;
+	background: red;
+	margin-left: -4px;
+}
+
+.mobile-nav .logo-container {
+	display: inline-block;
+	margin-left: -4px;
+	width: calc(100% - 100px);
+}
+
+.mobile-nav button {
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+
+
+
+@media (max-width: 768px) {
+	.mobile-nav {
+		display: block;
+	}
+
+	.desktop-nav {
+		display: none;
+	}
+}
+
+
+
+.fa-angle-down {
+	margin-left: 7.5px;
+	
 }
 
 .hero {
