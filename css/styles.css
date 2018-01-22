@@ -9,7 +9,9 @@ font-family: 'Oswald', sans-serif;
 */
 
 
-
+/*****************************************************
+General Styles
+******************************************************/
 h1, h2, h3 {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 700;
@@ -38,10 +40,23 @@ button {
     font-size: 12px;
 }
 
+/*****************************************************
+Header Styles
+******************************************************/
+
 
 header {
 	height: 80px;
 	background:#161616; 
+	padding-top: 20px;
+}
+
+header .logo {
+	background-image: url('../img/logo.svg');
+	height:40px;
+	width: 40px;
+	background-size: 40px;
+
 }
 
 .hero {
