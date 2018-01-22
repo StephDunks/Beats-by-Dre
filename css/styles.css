@@ -2,178 +2,164 @@
 red: #e01e3c;
 black: #161616;
 white: #ffffff;
-
-font-family: 'Nunito Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
-
+font-family: 'Nunito Sans', sans-serif;
 */
 
-
-/*****************************************************
+/* * * * * * * * * * * * * * * * * * * * *
 General Styles
-******************************************************/
+* * * * * * * * * * * * * * * * * * * * */
+
 h1, h2, h3 {
-	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-
 h1 {
-	font-size: 70px;
+    font-size: 70px;
+    font-weight: 700;
 }
 
 h2 {
-	font-size: 50px;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 h3 {
-	font-size: 36px;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 p {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
-
 
 button {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
 }
 
-/*****************************************************
-Header Styles
-******************************************************/
 
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header Styles
+* * * * * * * * * * * * * * * * * * * * */
 
 header {
-	height: 80px;
-	background:#161616; 
-	padding-top: 20px;
+    height: 80px;
+    background: #161616;
+    padding-top: 20px;
 }
 
 header .logo {
-	background-image: url('../img/logo.svg');
-	height:40px;
-	width: 40px;
-	background-size: 40px;
-	float: left;
-
+    background-image: url('../img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
 }
+
+
 
 header ul {
-	float: right;
-	margin-top: 10px;
-	text-align: center;
-	padding: 0;
-	width: calc(100% - 60px);
-
+    float: right;
+    margin-top: 10px;
+    padding: 0;
+    width: calc(100% - 60px);
+    text-align: right;
 }
 
-
-
-header  li {
-	display: inline-block;
-	margin-left: 40px;
-
-
+header li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 header a,
 header a:visited {
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 header a:hover,
 header a:focus,
 header a:active {
-	opacity: 0.8;
-	text-decoration: none;
-	color: white;
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
 }
 
-
 .desktop-nav .logo {
-	float: left;
+    float: left;
 }
 
 .mobile-nav {
-	display: none;
-	text-align: center;
+    display: none;
+    text-align: center;
 }
 
 .mobile-nav .logo {
-	display: inline-block;
+    display: inline-block;
 }
 
 .mobile-nav .hamburger-container,
 .mobile-nav .search-container {
-	width: 40px;
-	display: inline-block;
-	background: red;
-	margin-left: -4px;
+    width: 40px;
+    display: inline-block;
+    margin-left: -4px;
 }
 
 .mobile-nav .logo-container {
-	display: inline-block;
-	margin-left: -4px;
-	width: calc(100% - 100px);
+    display: inline-block;
+    margin-left: -4px;
+    width: calc(100% - 80px);
 }
 
 .mobile-nav button {
-	background: transparent;
-	border: none;
-	color: white;
+    background: transparent;
+    border: none;
+    color: white;
 }
-
 
 
 
 @media (max-width: 768px) {
-	.mobile-nav {
-		display: block;
-	}
+    .mobile-nav {
+        display: block;
+    }
 
-	.desktop-nav {
-		display: none;
-	}
+    .desktop-nav {
+        display: none;
+    }
 }
 
 
-
-.fa-angle-down {
-	margin-left: 7.5px;
-	
-}
 
 .hero {
-	height: 400px;
-	background: #999;	
+    height: 400px;
+    background: #999;
 }
 
 .product-lineup-container {
-	height: 400px;
-	background: #333;
+    height: 400px;
+    background: #333;
 }
 
 .featured-product-container {
-	height: 400px;
-	background: #444;
+    height: 400px;
+    background: #444;
 }
 
 .product-support-container {
-	height: 400px;
-	background: #555;
+    height: 400px;
+    background: #555;
 }
 
 .subscription-container {
-	height: 400px;
-	background: #666;
+    height: 400px;
+    background: #666;
 }
 
 footer {
-	height: 400px;
-	background: #777;
+    height: 400px;
+    background: #161616;
 }
