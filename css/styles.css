@@ -10,7 +10,7 @@ font-family: 'Nunito Sans', sans-serif;
 General Styles
 * * * * * * * * * * * * * * * * * * * * */
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
 }
@@ -30,9 +30,18 @@ h3 {
 
 }
 
+
+
 p {
     font-family: sans-serif;
 
+}
+
+.logo {
+    background-image: url('../img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
 }
 
 .button {
@@ -67,6 +76,17 @@ p {
     display: inline-block;;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+}
+
 
 
 
@@ -82,12 +102,6 @@ header {
     padding-top: 20px;
 }
 
-header .logo {
-    background-image: url('../img/logo.svg');
-    height: 40px;
-    width: 40px;
-    background-size: 40px;
-}
 
 
 /* Desktop */
@@ -95,7 +109,6 @@ header .logo {
 .desktop-nav ul {
     float: right;
     margin-top: 10px;
-    padding: 0;
     width: calc(100% - 60px);
     text-align: center;
 }
@@ -109,8 +122,7 @@ header .logo {
 .desktop-nav a:visited {
     color: white;
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
+}       
 
 .desktop-nav a:hover,
 .desktop-nav a:focus,
@@ -269,5 +281,31 @@ Subscription
 
 footer {
     height: 400px;
-    background: #161616;
+    background: white;
+    padding: 80px 0;
+
 }
+
+footer a {
+    color: #a7a6a6;
+    font-size: 0.9em;
+    line-height: 3;
+
+}
+
+footer a:hover {
+    color: #e01e3c;
+    
+}
+
+.social-icons li {
+    display: inline-block;
+
+}
+
+.social-icons i {
+    margin-right: 10px;
+}
+
+
+
